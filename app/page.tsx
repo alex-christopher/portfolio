@@ -60,9 +60,9 @@ export default function Home() {
 
   // Trigger boot sequence steps
   useEffect(() => {
-    const timer1 = setTimeout(() => setBootSequence(1), 600);  // Hello World finishes
-    const timer2 = setTimeout(() => setBootSequence(2), 900);  // name/intro fades in
-    const timer3 = setTimeout(() => setBootSequence(3), 1400); // terminal + arsenal loads
+    const timer1 = setTimeout(() => setBootSequence(1), 200);  // Hello World finishes
+    const timer2 = setTimeout(() => setBootSequence(2), 400);  // name/intro fades in
+    const timer3 = setTimeout(() => setBootSequence(3), 1000); // terminal + arsenal loads
     return () => { clearTimeout(timer1); clearTimeout(timer2); clearTimeout(timer3); };
   }, []);
 
