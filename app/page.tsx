@@ -303,7 +303,13 @@ export default function Home() {
             </div>
 
             <div className="glass-panel p-8 flex flex-col lg:col-span-2">
-              <h3 className="text-2xl font-bold mb-2">Auto ML Generation (OSS)</h3>
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-2">
+                <h3 className="text-2xl font-bold mb-2">Auto ML Generation (OSS)</h3>
+                <a href="https://github.com/alex-christopher/pyoptiML" target="_blank" rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-1.5 rounded-lg border border-[var(--border)] bg-[var(--surface-light)] text-sm font-mono text-[var(--text-secondary)] hover:border-[var(--primary)] hover:text-[var(--primary)] transition-all shrink-0">
+                  <Github className="w-4 h-4" /> Open Source
+                </a>
+              </div>
               <p className="text-[var(--primary)] font-mono text-sm mb-4">JAN 2023 - APR 2023</p>
               <p className="text-[var(--text-secondary)] flex-1 text-lg mb-6">
                 An open-source Python package that automates the entire machine learning workflow end-to-end. Feed it a raw CSV and it handles EDA, feature engineering, model selection (across classifiers/regressors), cross-validation, and hyperparameter tuning automatically—outputting a production-ready, serialized model. Designed to remove the repetitive boilerplate from ML experimentation and let engineers focus on problem framing instead.
@@ -314,6 +320,26 @@ export default function Home() {
                 <PhysicsTechTags techStacks={["Python 3", "Scikit-learn", "Pandas", "Optuna", "Joblib", "PyTest"]} inView={true} />
               </div>
             </div>
+
+            {/* Portfolio Site */}
+            <div className="glass-panel p-8 flex flex-col lg:col-span-2">
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-2">
+                <h3 className="text-2xl font-bold">GenAI Engineer Portfolio — This Site</h3>
+                <a href="https://github.com/alex-christopher/portfolio" target="_blank" rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-1.5 rounded-lg border border-[var(--border)] bg-[var(--surface-light)] text-sm font-mono text-[var(--text-secondary)] hover:border-[var(--primary)] hover:text-[var(--primary)] transition-all shrink-0">
+                  <Github className="w-4 h-4" /> Open Source
+                </a>
+              </div>
+              <p className="text-[var(--primary)] font-mono text-sm mb-4">MAR 2025 — OPEN SOURCE</p>
+              <p className="text-[var(--text-secondary)] flex-1 text-lg mb-6">
+                The very portfolio you are viewing, built as an open-source project. Features a Python-themed typing animation, Framer Motion physics-based tech stack reveals, a terminal system initialization sequence, and a code-aesthetic dark design system. Fork it, adapt it, make it yours.
+              </p>
+              <div className="border-t border-[var(--border)] pt-4 mt-auto">
+                <div className="font-mono text-xs text-[var(--text-secondary)] mb-2"><span className="text-blue-400">print</span>(stack)</div>
+                <PhysicsTechTags techStacks={["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"]} inView={true} />
+              </div>
+            </div>
+
           </div>
         </section>
 
