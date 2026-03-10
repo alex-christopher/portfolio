@@ -136,7 +136,7 @@ export default function Home() {
             </div>
             <div className="font-mono text-sm text-gray-300 space-y-2">
               <p><span className="text-yellow-400">[INFO]</span> Initializing core dependencies...</p>
-              <p><span className="text-green-400">✓</span> Loaded <span className="text-[var(--secondary)]">Python 3.11</span></p>
+              <p><span className="text-green-400">✓</span> Loaded <span className="text-[var(--secondary)]">Python</span></p>
               <p><span className="text-green-400">✓</span> Loaded <span className="text-[var(--secondary)]">LangChain &amp; LangGraph</span></p>
               <p><span className="text-green-400">✓</span> Connected to <span className="text-[var(--secondary)]">Vector DB (OpenSearch/Chroma)</span></p>
               <p><span className="text-green-400">✓</span> Provisioned <span className="text-[var(--secondary)]">AWS &amp; Azure</span></p>
@@ -158,7 +158,7 @@ export default function Home() {
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {[
-                { label: "Languages", items: ["Python 3.11", "JavaScript", "TypeScript", "SQL"] },
+                { label: "Languages", items: ["Python", "JavaScript", "SQL"] },
                 { label: "GenAI & Agents", items: ["LangChain", "LangGraph", "LangSmith", "CrewAI", "Agentic AI", "RAG", "Prompt Engineering"] },
                 { label: "LLMs & Models", items: ["OpenAI GPT-4", "Azure OpenAI", "AWS Bedrock", "Llama", "Ollama", "HuggingFace"] },
                 { label: "Frameworks", items: ["FastAPI", "Streamlit", "PyTorch", "Transformers", "PEFT"] },
@@ -365,7 +365,7 @@ export default function Home() {
 
         {/* FOOTER / CONTACT */}
         <footer id="contact" className="py-20 border-t border-[var(--border)] flex flex-col items-center text-center">
-          <h2 className="text-4xl font-bold mb-6 text-[var(--text-primary)]">System.exit(0)</h2>
+          <h2 className="text-4xl font-bold mb-6 text-[var(--text-primary)]">sys.exit(0)</h2>
           <p className="text-xl text-[var(--text-secondary)] mb-12 max-w-lg">
             My thread pool is always open for new processes. Reach out if you'd like to collaborate.
           </p>
