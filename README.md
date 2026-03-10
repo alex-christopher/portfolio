@@ -2,7 +2,7 @@
 
 Personal portfolio of **Alex Christopher**, GenAI Engineer specializing in RAG architectures, multi-agent systems, and scalable LLM orchestration.
 
-🔗 **Live Site**: [Deployed on Vercel](#) <!-- Replace with your live URL -->
+🔗 **Live Site**: [alex-christopher-portfolio.vercel.app](https://alex-christopher-portfolio.vercel.app)
 
 ---
 
